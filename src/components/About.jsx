@@ -1,7 +1,14 @@
+import profileImg from '../../img/minhvu.jpg';
+
 export default function About() {
+  const onImgError = (e) => {
+    // Fallback to a simple placeholder if the photo is missing
+    e.currentTarget.src = '/vite.svg';
+  };
+
   return (
     <div className="about">
-      <img className="about-photo" src="/profile.jpg" alt="Profile photo of Minh Vu" />
+      <img className="about-photo" src={profileImg} alt="Profile photo of Minh Vu" onError={onImgError} />
       <div className="about-copy">
         <h3>Minh Vu — Full-Stack Web Developer</h3>
         <p>
