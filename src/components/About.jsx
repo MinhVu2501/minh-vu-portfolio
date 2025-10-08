@@ -17,9 +17,7 @@ export default function About() {
           reliable functionality.
         </p>
         <p>
-          I help small businesses, creators, and entrepreneurs turn ideas into fast, professional websites — from
-          landing pages to full web applications. I currently work evenings in manufacturing and dedicate mornings
-          and weekends to freelance web development.
+        I partner with small businesses, creators, and entrepreneurs to transform ideas into beautiful, fast, and conversion-driven websites — whether it’s a simple landing page or a full-scale web app. Outside my evening job in manufacturing, I focus my mornings and weekends on freelance web development
         </p>
       </div>
     </div>
