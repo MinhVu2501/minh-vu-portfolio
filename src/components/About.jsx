@@ -1,4 +1,4 @@
-import profileImg from '../../img/minhvu.jpg';
+import profileImg from '../../img/minhvu.jpeg';
 
 export default function About() {
   const onImgError = (e) => {
